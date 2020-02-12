@@ -8,6 +8,7 @@ const path = require("path")
 module.exports = {
   plugins: [
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-layout`,
     {
       resolve: "gatsby-plugin-root-import",
       options: {

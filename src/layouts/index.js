@@ -5,11 +5,10 @@ import "src/styles/app.css"
 import * as MDX from "src/mdxelements"
 
 export default ({ children, pathContext }) => {
-  let { title } = pathContext.frontmatter
 
   return (
     <>
-      <Seo title={title}/>
+      <Seo title={pathContext && pathContext.frontmatter ? pathContext.frontmatter.title : 'Fligbook'}/>
       <div className="flex flex-1 h-screen">
         <Sidebar />
         <div className="bg-white flex flex-1 flex-col min-w-0">

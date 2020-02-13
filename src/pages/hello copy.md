@@ -1,0 +1,55 @@
+---
+title: Hello, world!
+path: /hello-world
+date: 2019-01-29
+---
+# Hello, world na this!
+## Hello, world na this!
+### Hello, world na this!
+#### Hello, world na this!
+##### Hello, world na this!
+###### Hello, world na this!
+test
+***
+hays
+asdsaasdsa
+asd
+
+asda
+> blockqoute
+asdsad
+
+- asdsa
+- asd
+
+1. asdasd
+2. asdsas
+
+* [x] bar
+
+| foo | bar |
+| :-- | :-: |
+| baz | qux |
+| This \| is \| a \| table row
+
+```
+js console.log()
+asdsad
+```
+
+test ni sya `console.log()` asd
+
+_emphasis_
+
+**strong**
+
+~~strikethrough~~
+
+test `console.log()`
+
+---
+
+<https://mdxjs.com> or [MDX](https://mdxjs.com)
+
+
+![alt](https://mdx-logo.now.sh)

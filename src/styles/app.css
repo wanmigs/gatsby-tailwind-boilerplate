@@ -1,5 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800,900&display=swap');
+
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
+
+html, body {
+    font-family: 'Nunito', sans-serif;
+}
+
+a.active:before{
+    @apply bg-primary;
+    content: "";
+    position: absolute;
+    top: .35em;
+    left: -15px;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 100%;
+}
+
+.markdown-body hr {
+    height: 4px;
+    margin: 32px 0;
+    background-color: #d6d6d6;
+    border: 0 none;
+}
+
+ul:not(.contains-task-list) {
+    @apply list-disc pl-8 mb-3 leading-6;
+}
+
+ul.contains-task-list {
+    @apply mb-3 ;
+}
+
+ol {
+    @apply list-decimal pl-8 mb-3 leading-6;
+}
+
+.markdown-body pre {
+    @apply bg-gray-200 mb-4 p-2 rounded shadow-inner text-xs;
+}
+
+.markdown-body p > code {
+    @apply bg-gray-200 p-1 rounded shadow-inner text-red-500 text-xs
+}
+
+.markdown-body a {
+    @apply text-blue-500 cursor-pointer;
+}
+
+.markdown-body table {
+    @apply mb-4;
+}
+

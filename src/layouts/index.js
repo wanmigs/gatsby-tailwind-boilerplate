@@ -1,5 +1,7 @@
 import React from "react"
-import { Sidebar, Header, Seo } from "src/components"
+import Sidebar from "src/components/Sidebar"
+import Header from "src/components/Header"
+import Seo from "src/components/Seo"
 import { MDXProvider } from "@mdx-js/react"
 import "src/styles/app.css"
 import * as MDX from "src/mdxelements"
